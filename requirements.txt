@@ -3,5 +3,6 @@ transformers
 gradio
 pillow
 accelerate
-scipy
-sentencepiece
+mediapipe==0.10.14
+opencv-python-headless
+timm
