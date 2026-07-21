@@ -1,0 +1,28 @@
+import os
+
+def generate_latex_table6():
+    latex_content = r"""\begin{table}[ht!]
+\centering
+\caption{Ablation of In-Context Shot Scaling ($k$) on UMSG Grounding and Tracking Track.}
+\label{tab:table6_shot_ablation}
+\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}ccc}
+\toprule
+\textbf{Configuration} & \textbf{Context Shots ($k$)} & \textbf{CIDEr} & \textbf{Precision @0.25m} \\
+\midrule
+UMSG (Zero-Shot)        & $k = 0$ & 68.2 & 71.4\% \\
+UMSG (1-Shot)           & $k = 1$ & 70.9 & 74.8\% \\
+UMSG (2-Shot)           & $k = 2$ & 73.5 & 78.2\% \\
+\textbf{UMSG (4-Shot)} & $\mathbf{k = 4}$ & \textbf{76.4} & \textbf{82.9\%} \\
+\bottomrule
+\end{tabular*}
+\end{table}
+"""
+    os.makedirs("tables", exist_ok=True)
+    filepath = "tables/table6_shot_ablation.tex"
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write(latex_content)
+        
+    print(f"[SUCCESS] Table 6 LaTeX file generated successfully at '{filepath}'")
+
+if __name__ == "__main__":
+    generate_latex_table6()
