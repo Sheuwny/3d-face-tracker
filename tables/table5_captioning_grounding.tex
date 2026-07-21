@@ -1,0 +1,12 @@
+\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}cccc}
+\toprule
+\textbf{Method} & \textbf{Setting} & \textbf{CIDEr} & \textbf{BLEU-4} & \textbf{Med-Dist (m)} \\
+\midrule
+ScanRefer Baseline     & Fully Supervised  & 52.4 & 11.2 & 0.34 \\
+3D-LLM Engine          & Zero-Shot ($k=0$) & 61.2 & 14.5 & 0.28 \\
+Multi-Modal Grounder   & Zero-Shot ($k=0$) & 63.5 & 15.1 & 0.25 \\
+\midrule
+\textbf{UMSG (Ours)}   & \textbf{Zero-Shot} ($\mathbf{k=0}$) & \textbf{68.2} & \textbf{16.2} & \textbf{0.19} \\
+\textbf{UMSG (Ours)}   & \textbf{Few-Shot} ($\mathbf{k=4}$)  & \textbf{76.4} & \textbf{18.4} & \textbf{0.14} \\
+\bottomrule
+\end{tabular*}
