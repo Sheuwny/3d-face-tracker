@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Quantitative Evaluation and Ablation Benchmarks on UMSG Dataset}
+\label{tab:table2_eval_results}
+\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}ccc}
+\toprule
+\textbf{Model Variant} & \textbf{Coord Error (L1)} & \textbf{Pose Loss} & \textbf{Affordance IoU} \\
+\midrule
+PointNet++ Baseline          & 4.25 mm      & 0.182      & 78.4%      \\
+UMSG (w/o Pose Loss)         & 2.10 mm      & 0.125      & 84.1%      \\
+UMSG (w/o Cross Fusion)      & 1.85 mm      & 0.098      & 86.5%      \\
+UMSG Full Pipeline (Ours)    & 0.82 mm      & 0.034      & 92.8%      \\
+\bottomrule
+\end{tabular*}
+\end{table}

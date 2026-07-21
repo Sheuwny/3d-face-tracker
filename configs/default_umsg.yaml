@@ -1,0 +1,17 @@
+# UMSG Network Configuration File
+model:
+  name: "UMSGNetwork"
+  hidden_dim: 768
+  semantic_dim: 1024
+  heads: 12
+  dropout: 0.10
+
+dataset:
+  point_cloud_size: 2048
+  batch_size: 16
+
+loss_weights:
+  lambda_bce: 1.0
+  lambda_pose: 0.5
+  lambda_mask: 0.8
+  lambda_reg: 1.2
