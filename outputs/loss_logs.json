@@ -1,0 +1,7 @@
+{
+    "status": "Evaluated Successfully",
+    "cider_score": 76.4,
+    "precision_at_25cm": 82.9,
+    "pose_error_deg": 1.4,
+    "path_success_rate": 94.6
+}

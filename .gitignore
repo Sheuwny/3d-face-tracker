@@ -1,0 +1,15 @@
+# Large Dataset files & Weights (GitHub 100MB limit bypass)
+*.ply
+*.h5
+*.pth
+*.bin
+*.tar.gz
+
+# Ignore raw data folders except demo split and readmes
+data/raw/
+data/scans/
+
+# Keep structural files and scripts
+!data/README.md
+!data/dataset_checksums.json
+!data/demo_split/

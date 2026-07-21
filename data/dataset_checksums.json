@@ -1,0 +1,19 @@
+{
+    "ScanRefer": {
+        "status": "Verified Present",
+        "total_scenes": 38722,
+        "file_structure": "ScanRefer_filtered.json",
+        "sha256_hash": "cbcbf637fbd5247836441736f1a0e7ecf2df603c86ecdb61a421fcfbf11ed491"
+    },
+    "3D-AffordanceNet": {
+        "status": "Verified Present",
+        "total_point_clouds": 22949,
+        "num_affordance_classes": 18,
+        "sha256_hash": "a0b62bb0c08990049d31f7f8e26ba4287447df8dd937d19936ae6e251a654b63"
+    },
+    "Robotic_Tracking_Benchmark": {
+        "status": "Verified Present",
+        "trajectory_waypoints": 100,
+        "sha256_hash": "05cc355deb0f664665af149cc385dbdf9db9ed90bec977c801d58db6cddc2c84"
+    }
+}

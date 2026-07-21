@@ -1,0 +1,14 @@
+[
+    {
+        "scene_id": "scene0000_00",
+        "object_id": "0",
+        "object_name": "chair",
+        "description": "a black ergonomic office chair near the wooden desk"
+    },
+    {
+        "scene_id": "scene0001_00",
+        "object_id": "1",
+        "object_name": "table",
+        "description": "a large brown dining table in the center of the room"
+    }
+]

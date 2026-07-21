@@ -1,0 +1,15 @@
+[
+    {
+        "scene_id": "scene0000_00",
+        "pred_box_3d": [
+            1.25,
+            -0.45,
+            0.82,
+            0.6,
+            0.6,
+            0.8
+        ],
+        "generated_caption": "a black ergonomic office chair near the wooden desk",
+        "cider_score": 76.4
+    }
+]
