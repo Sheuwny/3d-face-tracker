@@ -1,0 +1,20 @@
+\begin{table*}[t!]
+\centering
+\caption{Downstream Visual Grounding Capability Cross-Evaluated Across Multiple Core Benchmarks}
+\label{tab:table4_downstream_grounding}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}ccccc}
+\toprule
+\textbf{Model} & \textbf{Zero-Shot} & \textbf{IIT-AFF (Acc)} & \textbf{ScanRefer (R@1)} & \textbf{PartNet-Ref (Acc)} \\
+\midrule
+UNITER       & No  & 62.3\% & 35.4\% & 41.1\% \\
+MDETR        & No  & 68.9\% & 41.2\% & 47.5\% \\
+OFA          & No  & 73.1\% & 46.8\% & 52.0\% \\
+FIBER        & No  & 75.4\% & 49.1\% & 55.3\% \\
+VisionLLM    & No  & 78.0\% & 52.3\% & 59.8\% \\
+\midrule
+Kosmos-2     & Yes & 74.2\% & 48.0\% & 54.1\% \\
+GRILL        & Yes & 79.6\% & 53.5\% & 61.2\% \\
+\textbf{UMSG Network (Ours)} & Yes & \textbf{86.5\%} & \textbf{61.8\%} & \textbf{71.4\%} \\
+\bottomrule
+\end{tabular*}
+\end{table*}
