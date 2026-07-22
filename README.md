@@ -91,8 +91,12 @@ Official PyTorch implementation of **UMSG Network**, a unified multi-modal archi
 2. Install Dependencies:
 pip install torch torchvision numpy
 
+3. **Initialize Datasets & Generate Sample Pipelines (No 50GB Download Required)**:
+   To verify evaluation scripts and test loss/benchmark loops locally without downloading multi-gigabyte raw files (~50 GB), run our automated dataset fetcher and sample generator:
 
-3.To test the evaluation scripts locally without downloading 50GB raw datasets, run the automated sample generator:
+   ```bash
+   python scripts/fetch_all_project_datasets.py
+
 
 
 python scripts/setup_sample_datasets.py
